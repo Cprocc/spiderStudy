@@ -2,8 +2,8 @@ import urllib.request
 import random
 
 # urlopen don't support self constructing request header
-# client_version = "Python-urllib/%s" %__version__
-# print(urllib.request.urlopen("https://www.baidu.com").read())
+# client_version = "Python-urllib_xml/%s" %__version__
+# print(urllib_xml.request.urlopen("https://www.baidu.com").read())
 
 # the first step for spider is User-Agent
 ua_list = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "

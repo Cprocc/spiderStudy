@@ -18,8 +18,8 @@ our_headers = {
 # url_encode_wd = {
 #     "wd": "url汉字编码"
 # }
-# print(urllib.parse.urlencode(url_encode_wd))
-# print(urllib.parse.unquote(urllib.parse.urlencode(url_encode_wd)))
+# print(urllib_xml.parse.urlencode(url_encode_wd))
+# print(urllib_xml.parse.unquote(urllib_xml.parse.urlencode(url_encode_wd)))
 
 aim_url = "http://www.baidu.com/s"
 key_word = input("输入要baidu的网页内容:")
