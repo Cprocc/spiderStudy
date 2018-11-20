@@ -36,6 +36,7 @@ class SpiderTie:
         # print(href_a)
         links = selector.xpath('//div[@class="threadlist_lz clearfix"]/div/a/@href')
         # print(links)
+        # print(links)
         for link in links:
             full_link = "http://tieba.baidu.com" + link
             self.load_images(full_link)
