@@ -8,3 +8,6 @@
 
 - beautiful_soup
     用beautifulsoup 进行解析，获取腾讯社招的信息
+
+- handler_json_of_city
+    jsonpath匹配json文件中的指定内容
