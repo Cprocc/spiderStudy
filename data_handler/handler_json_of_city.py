@@ -13,12 +13,12 @@ json_py = json.loads(html)
 
 city_list = jsonpath.jsonpath(json_py, '$..name')
 
-print(city_list)
+# print(city_list)
 print(type(city_list))
 fp = open("city.json", "w")
 
 content = json.dumps(city_list, ensure_ascii=False)
-print(content)
+# print(content)
 
 content = content.encode("utf-8")
 content = content.decode('utf-8')
