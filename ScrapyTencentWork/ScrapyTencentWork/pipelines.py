@@ -11,6 +11,10 @@ class ScrapytencentworkPipeline(object):
     def __init__(self):
         self.filename = open("tencent.json", "w")
 
+    def open_spider(self, spider):
+        pass
+
+    # 继承object类，必写的方法
     def process_item(self, item, spider):
         text = json.dumps(dict(item), ensure_ascii=False) + "\n"
         self.filename.write(text)

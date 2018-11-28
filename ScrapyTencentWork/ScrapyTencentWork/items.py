@@ -7,7 +7,7 @@
 
 import scrapy
 
-
+# create models
 class ScrapytencentworkItem(scrapy.Item):
     # define the fields for your item here like:
     position_name = scrapy.Field()
