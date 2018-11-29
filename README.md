@@ -5,3 +5,5 @@
 - ScrapyTencentWork
 
     用scrapy写爬取腾讯招聘的爬虫
+
+    TencentSpider增加自动检索本页中页面相关链接
