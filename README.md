@@ -12,4 +12,4 @@
 
     douban250 豆瓣电影Top榜爬虫
 
-    sinanews 新浪网新闻网页爬取
+    sinanews 新浪网新闻网页爬取 //上传时github崩溃？
