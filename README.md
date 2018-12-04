@@ -11,3 +11,5 @@
     CitySocial 阳光政务信息爬虫
 
     douban250 豆瓣电影Top榜爬虫
+
+    sinanews 新浪网新闻网页爬取
